@@ -11,7 +11,7 @@ export const AdviceGeneratorApp = () => {
                 <Card key={count} click={count}/>
                 <div onClick={() => setClick(count + 1)} className="btn-card">
                     {/* <img src="https://neenreva.github.io/advice-generator-app-main/images/icon-dice.svg"/> */}
-                    <p className="btn-title">No lo presiones pq aun no sirve :C</p>
+                    <p className="btn-title">Apachurrale aquí c:</p>
                 </div>
             </div>
         </div>
