@@ -1,8 +1,6 @@
-import React, {useState, useCallback, useEffect} from 'react';
+import React, {useState} from 'react';
 import './adviceapp.css';
 import { Card } from './components/Card';
-import { getAdvice } from './helpers/getAdvice';
-import { useFetchAdvice } from './hooks/useFetchAdvice';
 
 export const AdviceGeneratorApp = () => {
     const [count, setClick] = useState(0);
