@@ -11,7 +11,7 @@
 }
 @media (max-width: 400px) {
     .card{
-        margin: 0 2rem;
+        margin: 0 .5rem;
     }
 }
 .advice-num{
