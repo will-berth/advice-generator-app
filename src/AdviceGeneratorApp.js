@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import './adviceapp.css';
 import { Card } from './components/Card';
+import { SearchAdvice } from './components/SearchAdvice';
 
 export const AdviceGeneratorApp = () => {
+    const [advice, setAdvice] = useState('');
     const [count, setClick] = useState(0);
 
     return (
@@ -14,6 +16,7 @@ export const AdviceGeneratorApp = () => {
                     <p className="btn-title">Apachurrale aquí c:</p>
                 </div>
             </div>
+            <SearchAdvice setAdvice={setAdvice}/>
         </div>
     )
 }

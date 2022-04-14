@@ -1,0 +1,25 @@
+.formAdvice{
+    position: absolute;
+    bottom: 1.3rem;
+}
+
+.inputAdvice{
+    margin-right: .5rem;
+    border: none;
+    border-radius: 0.5rem;
+    width: 20rem;
+    background-color: var(--secondary-dark-grayish-blue);
+    color: var(--primary-cyan);
+    padding: .4rem;
+}
+.inputAdvice:focus{
+    outline: none;
+}
+
+.btnAdvice{
+    border: none;
+    background-color: var(--primary-green);
+    color: var(--secondary-dark-blue);
+    border-radius: 0.3rem;
+    padding: .3rem 1rem;
+}
