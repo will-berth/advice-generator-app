@@ -1,5 +1,5 @@
 .formAdvice{
-    position: absolute;
+    position: fixed;
     bottom: 1.3rem;
 }
 
@@ -11,6 +11,7 @@
     background-color: var(--secondary-dark-grayish-blue);
     color: var(--primary-cyan);
     padding: .4rem;
+    box-shadow: rgba(88, 87, 87, 0.35) 0px -50px 36px -28px inset;
 }
 .inputAdvice:focus{
     outline: none;

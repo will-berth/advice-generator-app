@@ -8,6 +8,7 @@
     justify-content: center;
     padding-bottom: 2.5rem;
     position:relative;
+    margin: 1rem 0px;
 }
 @media (max-width: 400px) {
     .card{
